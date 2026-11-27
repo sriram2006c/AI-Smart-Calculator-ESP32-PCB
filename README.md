@@ -43,3 +43,8 @@ AI-Smart-Calculator-ESP32-PCB/
 1. Install libraries in Arduino IDE: `Adafruit SSD1306`, `Adafruit GFX Library`, and `ArduinoJson` (v6+).
 2. Open `firmware/esp32_ai_assistant.ino` and replace `YOUR_WIFI_SSID`, `YOUR_WIFI_PASSWORD`, and your API key placeholders.
 3. Upload to ESP32, press the `BOOT` button to record a 4-second voice query, and view the AI response directly on the OLED.
+
+---
+
+## Development Note
+System concept, hardware architecture (`ESP32` + `INMP441` + `TP4056` + keypad), and custom 2-layer PCB fabrication package were put together by **Sriram C.**; the ESP32 I2S voice-to-LLM firmware was built using **AI-assisted prototyping**.
