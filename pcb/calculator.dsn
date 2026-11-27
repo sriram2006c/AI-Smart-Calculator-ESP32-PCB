@@ -1,0 +1,509 @@
+(PCB "PCB1"
+  (parser
+    (host_cad "EasyEDA Pro")
+    (host_version "2.2.45.4")
+  )
+  (resolution mil 1000)
+  (structure
+    (boundary(path signal 0 0 0 0 582.68 275.59 582.68 275.59 0 0 0 )
+    )
+    (via via0
+    )
+    (grid via   0.25)
+    (grid wire   0.25)
+    (grid place   0.25)
+    (rule(clear 0.41))
+    (rule(clear 0.41 (type default_smd)))
+    (rule(clear 0.41 (type smd_smd)))
+    (rule(width 1.01))
+    (layer 1
+      (type signal)
+    )
+    (layer 2
+      (type signal)
+    )
+  )
+
+  (placement
+    (component u1
+      (place u1 0 0 front 0
+      )
+    )
+  )
+  (library
+    (image u1
+      (pin p0e7 0e7 163.05 277.11)
+      (pin p0e7 0e8 150.51 277.11)
+      (pin p0e7 1e7 163.05 304.67)
+      (pin p0e7 1e8 150.51 304.67)
+      (pin p0e7 2e7 163.05 332.23)
+      (pin p0e7 2e8 150.51 332.23)
+      (pin p3e14 3e14 159.53 359.79)
+      (pin p3e14 3e15 154.02 359.79)
+      (pin p3e14 4e14 159.53 387.35)
+      (pin p3e14 4e15 154.02 387.35)
+      (pin p5e13 5e13 15.79 159)
+      (pin p5e14 5e14 25.79 159)
+      (pin p5e14 5e15 35.79 159)
+      (pin p5e14 5e16 45.79 159)
+      (pin p6e21 6e21 206.97 407.04)
+      (pin p6e21 6e22 201.07 407.03)
+      (pin p7e7 7e7 36.72 80.26)
+      (pin p7e7 7e8 30.79 80.26)
+      (pin p7e7 8e7 65.25 80.26)
+      (pin p7e7 8e8 59.32 80.26)
+      (pin p7e7 9e7 96.75 80.26)
+      (pin p7e7 9e8 90.82 80.26)
+      (pin p7e7 10e7 128.25 80.26)
+      (pin p7e7 10e8 122.31 80.26)
+      (pin p7e7 11e7 206.99 237.74)
+      (pin p7e7 11e8 201.05 237.74)
+      (pin p7e7 12e7 206.99 265.3)
+      (pin p7e7 12e8 201.05 265.3)
+      (pin p7e7 13e7 206.99 375.54)
+      (pin p7e7 13e8 201.05 375.54)
+      (pin p7e7 14e7 206.99 107.82)
+      (pin p7e7 14e8 201.05 107.82)
+      (pin p15e50 15e50 97.29 218.45)
+      (pin p15e50 15e51 97.29 223.96)
+      (pin p15e50 15e52 97.29 229.48)
+      (pin p15e50 15e53 108.44 229.48)
+      (pin p15e50 15e54 108.44 223.96)
+      (pin p15e50 15e55 108.44 218.45)
+      (pin p15e50 15e56 102.92 218.45)
+      (pin p15e50 15e57 102.92 229.48)
+      (pin p15e50 15e58 102.92 223.97)
+      (pin p15e59 15e59 133.16 182.63)
+      (pin p15e59 15e60 128.16 182.63)
+      (pin p15e59 15e61 123.16 182.63)
+      (pin p15e59 15e62 118.16 182.63)
+      (pin p15e59 15e63 113.16 182.63)
+      (pin p15e59 15e64 108.16 182.63)
+      (pin p15e59 15e65 103.16 182.63)
+      (pin p15e59 15e66 98.16 182.63)
+      (pin p15e59 15e67 93.16 182.63)
+      (pin p15e59 15e68 88.16 182.63)
+      (pin p15e59 15e69 83.16 182.63)
+      (pin p15e59 15e70 78.16 182.63)
+      (pin p15e59 15e71 73.16 182.63)
+      (pin p15e59 15e72 68.16 182.63)
+      (pin p15e73 15e73 62.28 195.56)
+      (pin p15e73 15e74 62.28 200.56)
+      (pin p15e73 15e75 62.28 205.56)
+      (pin p15e73 15e76 62.28 210.56)
+      (pin p15e73 15e77 62.28 215.56)
+      (pin p15e73 15e78 62.28 220.56)
+      (pin p15e73 15e79 62.28 225.56)
+      (pin p15e73 15e80 62.28 230.56)
+      (pin p15e73 15e81 62.28 235.56)
+      (pin p15e73 15e82 62.28 240.56)
+      (pin p15e59 15e83 68.16 253.49)
+      (pin p15e59 15e84 73.16 253.49)
+      (pin p15e59 15e85 78.16 253.49)
+      (pin p15e59 15e86 83.16 253.49)
+      (pin p15e59 15e87 88.16 253.49)
+      (pin p15e59 15e88 93.16 253.49)
+      (pin p15e59 15e89 98.16 253.49)
+      (pin p15e59 15e90 103.16 253.49)
+      (pin p15e59 15e91 108.16 253.49)
+      (pin p15e59 15e92 113.16 253.49)
+      (pin p15e59 15e93 118.16 253.49)
+      (pin p15e59 15e94 123.16 253.49)
+      (pin p15e59 15e95 128.16 253.49)
+      (pin p15e59 15e96 133.16 253.49)
+      (pin p16e11 16e11 196.52 68.81)
+      (pin p16e11 16e12 201.52 68.81)
+      (pin p16e11 16e13 206.52 68.81)
+      (pin p16e11 16e14 211.52 68.81)
+      (pin p16e11 16e15 211.52 91.71)
+      (pin p16e11 16e16 206.52 91.71)
+      (pin p16e11 16e17 201.52 91.71)
+      (pin p16e11 16e18 196.52 91.71)
+      (pin p16e19 16e19 204.02 80.26)
+      (pin p17e8 17e8 213.07 151.01)
+      (pin p17e8 17e9 204.02 151.01)
+      (pin p17e8 17e10 194.96 151.01)
+      (pin p17e11 17e11 204.02 127.63)
+      (pin p18e10 18e10 30.79 210.19)
+      (pin p18e10 18e11 30.79 220.19)
+      (pin p18e10 18e12 30.79 230.19)
+      (pin p18e13 18e13 30.79 190.19)
+      (pin p18e10 18e14 30.79 200.19)
+      (pin p18e10 19e22 200.08 198.37)
+      (pin p18e10 19e23 207.96 198.37)
+      (pin p20e50 20e50 79.3 293.84)
+      (pin p20e50 20e51 79.3 313.84)
+      (pin p20e50 20e52 79.3 333.84)
+      (pin p20e50 20e53 79.3 353.84)
+      (pin p20e50 20e54 79.3 373.84)
+      (pin p20e50 20e55 79.3 393.84)
+      (pin p20e50 20e56 79.3 413.84)
+      (pin p20e50 20e57 79.3 433.84)
+      (pin p20e50 20e58 79.3 453.84)
+      (pin p20e50 20e59 79.3 473.84)
+      (pin p20e50 20e60 79.3 493.84)
+      (pin p20e50 20e61 79.3 513.84)
+      (pin p20e50 20e62 79.3 533.84)
+      (pin p20e50 20e63 79.3 553.84)
+      (pin p21e13 21e13 110.49 9.31)
+      (pin p21e13 21e14 85.1 9.31)
+      (pin p21e13 21e15 107.48 9.31)
+      (pin p21e13 21e16 88.11 9.31)
+      (pin p21e17 21e17 104.69 9.31)
+      (pin p21e17 21e18 102.72 9.31)
+      (pin p21e17 21e19 100.75 9.31)
+      (pin p21e17 21e20 98.78 9.31)
+      (pin p21e17 21e21 90.91 9.31)
+      (pin p21e17 21e22 92.87 9.31)
+      (pin p21e17 21e23 94.84 9.31)
+      (pin p21e17 21e24 96.81 9.31)
+      (pin p21e25 21e25 117.76 12.91)
+      (pin p21e25 21e26 77.83 12.91)
+      (pin p21e27 21e27 117.76 29.37)
+      (pin p21e27 21e28 77.83 29.37)
+      (pin p21e45 21e45 109.17 14.99)
+      (pin p21e45 21e46 86.42 14.99)
+    )
+
+    (padstack via0
+      (shape(circle 1 2.4))
+      (shape(circle 2 2.4))
+    )
+
+    (padstack p0e7
+      (shape(polygon 1 0.01 -2.92 -3.4 -2.92 3.4 -2.92 3.4 2.92 3.4 2.92 3.4 2.92 -3.4 2.92 -3.4 -2.92 -3.4))
+    )
+    (padstack p3e14
+      (shape(polygon 1 0.01 -1.57 -1.77 -1.57 1.77 -1.57 1.77 1.57 1.77 1.57 1.77 1.57 -1.77 1.57 -1.77 -1.57 -1.77))
+    )
+    (padstack p5e13
+      (shape(polygon 1 0.01 -3.35 -3.35 -3.35 3.35 -3.35 3.35 3.35 3.35 3.35 3.35 3.35 -3.35 3.35 -3.35 -3.35 -3.35))
+      (shape(polygon 2 0.01 -3.35 -3.35 -3.35 3.35 -3.35 3.35 3.35 3.35 3.35 3.35 3.35 -3.35 3.35 -3.35 -3.35 -3.35))
+    )
+    (padstack p5e14
+      (shape(circle 1 6.69 0 0))
+      (shape(circle 2 6.69 0 0))
+    )
+    (padstack p6e21
+      (shape(polygon 1 0.01 1.57 -1.57 -1.57 -1.57 -1.57 -1.57 -1.57 1.57 -1.57 1.57 1.57 1.57 1.57 1.57 1.57 -1.57))
+    )
+    (padstack p7e7
+      (shape(polygon 1 0.01 -1.59 -1.7 -1.59 1.7 -1.59 1.7 1.59 1.7 1.59 1.7 1.59 -1.7 1.59 -1.7 -1.59 -1.7))
+    )
+    (padstack p15e50
+      (shape(polygon 1 0.01 -1.77 -1.77 -1.77 1.77 -1.77 1.77 1.77 1.77 1.77 1.77 1.77 -1.77 1.77 -1.77 -1.77 -1.77))
+    )
+    (padstack p15e59
+      (shape(polygon 1 0.01 1.87 4.13 1.87 -4.13 1.87 -4.13 -1.87 -4.13 -1.87 -4.13 -1.87 4.13 -1.87 4.13 1.87 4.13))
+    )
+    (padstack p15e73
+      (shape(polygon 1 0.01 4.13 1.87 4.13 -1.87 4.13 -1.87 -4.13 -1.87 -4.13 -1.87 -4.13 1.87 -4.13 1.87 4.13 1.87))
+    )
+    (padstack p16e11
+      (shape(polygon 1 0.01 -1.18 -2.36 -1.18 2.36 -1.18 2.36 1.18 2.36 1.18 2.36 1.18 -2.36 1.18 -2.36 -1.18 -2.36))
+    )
+    (padstack p16e19
+      (shape(polygon 1 0.01 6.5 4.72 6.5 -4.72 6.5 -4.72 -6.5 -4.72 -6.5 -4.72 -6.5 4.72 -6.5 4.72 6.5 4.72))
+    )
+    (padstack p17e8
+      (shape(polygon 1 0.01 2.17 -4.92 -2.17 -4.92 -2.17 -4.92 -2.17 4.92 -2.17 4.92 2.17 4.92 2.17 4.92 2.17 -4.92))
+    )
+    (padstack p17e11
+      (shape(polygon 1 0.01 7.09 -4.61 -7.09 -4.61 -7.09 -4.61 -7.09 4.61 -7.09 4.61 7.09 4.61 7.09 4.61 7.09 -4.61))
+    )
+    (padstack p18e10
+      (shape(circle 1 6.3 0 0))
+      (shape(circle 2 6.3 0 0))
+    )
+    (padstack p18e13
+      (shape(polygon 1 0.01 -3.15 3.15 3.15 3.15 3.15 3.15 3.15 -3.15 3.15 -3.15 -3.15 -3.15 -3.15 -3.15 -3.15 3.15))
+      (shape(polygon 2 0.01 -3.15 3.15 3.15 3.15 3.15 3.15 3.15 -3.15 3.15 -3.15 -3.15 -3.15 -3.15 -3.15 -3.15 3.15))
+    )
+    (padstack p20e50
+      (shape(circle 1 9.84 0 0))
+      (shape(circle 2 9.84 0 0))
+    )
+    (padstack p21e13
+      (shape(polygon 1 0.01 1.08 2.85 1.08 -2.85 1.08 -2.85 -1.08 -2.85 -1.08 -2.85 -1.08 2.85 -1.08 2.85 1.08 2.85))
+    )
+    (padstack p21e17
+      (shape(polygon 1 0.01 0.59 2.85 0.59 -2.85 0.59 -2.85 -0.59 -2.85 -0.59 -2.85 -0.59 2.85 -0.59 2.85 0.59 2.85))
+    )
+    (padstack p21e25
+      (shape(polygon 1 0.01 3.74 2.85 3.74 -2.85 3.74 -2.85 -3.74 -2.85 -3.74 -2.85 -3.74 2.85 -3.74 2.85 3.74 2.85))
+    )
+    (padstack p21e27
+      (shape(polygon 1 0.01 3.74 2.56 3.74 -2.56 3.74 -2.56 -3.74 -2.56 -3.74 -2.56 -3.74 2.56 -3.74 2.56 3.74 2.56))
+    )
+    (padstack p21e45
+      (shape(circle 1 2.95 0 0))
+      (shape(circle 2 2.95 0 0))
+    )
+  )
+  (network
+    (net GND
+      (pins u1-0e7 u1-1e7 u1-2e7 u1-3e14 u1-4e14 u1-5e14 u1-6e22 u1-11e7 u1-12e7 u1-14e7 u1-15e50 u1-15e51 u1-15e52 u1-15e53 u1-15e54 u1-15e55 u1-15e56 u1-15e57 u1-15e58 u1-15e59 u1-15e82 u1-15e96 u1-16e13 u1-16e19 u1-17e8 u1-18e14 u1-19e22 u1-20e58 u1-20e59 u1-20e60 u1-20e61 u1-20e62 u1-20e63 u1-21e13 u1-21e14)
+    )
+    (net VCC
+      (pins u1-0e8 u1-1e8 u1-2e8 u1-3e15 u1-4e15 u1-5e13 u1-7e8 u1-8e7 u1-9e7 u1-10e7 u1-11e8 u1-12e8 u1-15e94 u1-15e95 u1-16e14 u1-16e18 u1-18e13)
+    )
+    (net SDA
+      (pins u1-5e15 u1-15e64)
+    )
+    (net SCL
+      (pins u1-5e16 u1-15e61)
+    )
+    (net LED_A
+      (pins u1-6e21 u1-13e7)
+    )
+    (net ROW0
+      (pins u1-7e7 u1-15e81 u1-20e50)
+    )
+    (net ROW1
+      (pins u1-8e8 u1-15e83 u1-20e51)
+    )
+    (net ROW2
+      (pins u1-9e8 u1-15e66 u1-20e52)
+    )
+    (net ROW3
+      (pins u1-10e8 u1-15e67 u1-20e53)
+    )
+    (net LED_PIN
+      (pins u1-13e8 u1-15e73)
+    )
+    (net PROG
+      (pins u1-14e8 u1-16e12)
+    )
+    (net I2S_WS
+      (pins u1-15e74 u1-18e11)
+    )
+    (net I2S_SCK
+      (pins u1-15e84 u1-18e12)
+    )
+    (net COL1
+      (pins u1-15e85 u1-20e55)
+    )
+    (net COL2
+      (pins u1-15e86 u1-20e56)
+    )
+    (net COL3
+      (pins u1-15e87 u1-20e57)
+    )
+    (net COL0
+      (pins u1-15e88 u1-20e54)
+    )
+    (net I2S_SD
+      (pins u1-15e89 u1-18e10)
+    )
+    (net VBAT
+      (pins u1-16e15 u1-17e10 u1-19e23)
+    )
+    (net 3V3
+      (pins u1-17e9 u1-17e11)
+    )
+    (net VBUS
+      (pins u1-21e15 u1-21e16)
+    )
+    (class  ''
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class GND 'GND'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class VCC 'VCC'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class SDA 'SDA'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class SCL 'SCL'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class LED_A 'LED_A'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class ROW0 'ROW0'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class ROW1 'ROW1'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class ROW2 'ROW2'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class ROW3 'ROW3'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class LED_PIN 'LED_PIN'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class PROG 'PROG'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class I2S_WS 'I2S_WS'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class I2S_SCK 'I2S_SCK'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class COL1 'COL1'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class COL2 'COL2'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class COL3 'COL3'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class COL0 'COL0'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class I2S_SD 'I2S_SD'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class VBAT 'VBAT'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class 3V3 '3V3'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+    (class VBUS 'VBUS'
+      (circuit 
+        (use_via via0)
+      )
+      (rule 
+        (width 1)
+        (clearance 0.4)
+      )
+    )
+  )
+
+  (wiring
+  )
+)
